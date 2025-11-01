@@ -1,0 +1,3 @@
+[2025-10-31 15:00:10] [ServiceA] [INFO] User logged in: user123
+[2025-10-31 15:00:20] [ServiceB] [ERROR] Payment failed
+[2025-10-31 15:05:10] [ServiceC] [WARN] Disk usage high: 87%
