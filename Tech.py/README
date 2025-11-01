@@ -1,0 +1,73 @@
+🚀 Desafio Tech: Pipeline de Normalização e Chunking de Logs
+Log Normalization and Chunking Pipeline
+
+Atributo / Attribute	Detalhes / Details
+Nível / Level	🟠 Intermediário Alto / High Intermediate
+Tempo Estimado / Estimated Time	∼35 min
+Libs Permitidas / Allowed Libraries	os, re, json, datetime, itertools, collections
+
+Exportar para as Planilhas
+
+🇧🇷 Contexto & Objetivo
+Contexto 📖
+Você é o engenheiro responsável por pré-processar enormes logs de múltiplos serviços, que chegam em formatos heterogêneos.
+
+O objetivo deste desafio é desenvolver uma solução eficiente para:
+
+Normalizar todas as entradas de log.
+
+Agrupar as entradas em janelas temporais fixas.
+
+Dividir os dados em chunks balanceados para processamento paralelo, priorizando o agrupamento temporal.
+
+Objetivo Técnico 🎯
+Desenhar um módulo eficiente em Python que, de forma modular e em streaming (usando geradores), consiga:
+
+Varredura: Iterar sobre um diretório de logs de tamanho arbitrário.
+
+Normalização: Converter cada linha de log para o formato JSON: timestamp, service, level, message, meta.
+
+Agrupamento: Organizar entradas em janelas temporais fixas (e.g., 5 minutos).
+
+Chunking: Produzir chunks de saída de ≈N entradas, mantendo o balanceamento por janela temporal.
+
+🇺🇸 Context & Objective
+Context 📖
+You are the engineer responsible for pre-processing enormous logs from multiple services, which arrive in heterogeneous formats.
+
+The objective of this challenge is to develop an efficient solution to:
+
+Normalize all log entries.
+
+Group entries into fixed time windows.
+
+Split the data into balanced chunks for parallel processing, prioritizing temporal grouping.
+
+Technical Objective 🎯
+Design an efficient Python module that, in a modular and streaming fashion (using generators), can achieve the following:
+
+Scanning: Iterate over a log directory of arbitrary size.
+
+Normalization: Convert each log line to the JSON format: timestamp, service, level, message, meta.
+
+Grouping: Organize entries into fixed time windows (e.g., 5 minutes).
+
+Chunking: Produce output chunks of ≈N entries, maintaining balance by time window.
+
+🚧 Regras e Restrições / Rules and Constraints
+Usar apenas as bibliotecas nativas listadas no topo.
+
+O processamento deve ser via streaming / geradores (não carregar o arquivo inteiro na memória).
+
+A interface deve ser modular, com funções separadas e encadeadas para parsing, normalização, agrupamento e chunking.
+
+O tratamento do timestamp deve ser manual/regex (sem usar dateutil).
+
+Tratamento de erro: Entries malformadas devem ser desviadas para um dead-letter file.
+
+🤔 Guia de Raciocínio (Mentoria) / Reasoning Guide (Mentoring)
+Estratégia Principal: Utilize geradores (yield) em todas as etapas para garantir a eficiência de memória (O(k)) e processar dados em tempo linear (O(n)).
+
+Agrupamento Temporal: Calcule a chave da janela temporal usando a função floor(timestamp/janela).
+
+Memória: Mantenha um buffer de janelas ativas e implemente uma lógica para "fechar" e liberar da memória as janelas mais antigas que já foram processadas.
