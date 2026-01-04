@@ -1,7 +1,7 @@
 from tkinter import *
 import random
 
-# --------- CORES (TEMA ROSA) ----------
+
 BG_COLOR = "#465FEE"
 BTN_COLOR = "#c2c3fd"
 WIN_COLOR = "#7e80f3"
@@ -76,7 +76,7 @@ def new_game():
         for col in range(3):
             buttons[row][col].config(text="", bg=BTN_COLOR)
 
-# --------- JANELA ----------
+
 window = Tk()
 window.title("Tic-Tac-Toe")
 window.config(bg=BG_COLOR)
@@ -123,3 +123,4 @@ for row in range(3):
         buttons[row][col].grid(row=row, column=col, padx=5, pady=5)
 
 window.mainloop()
+
