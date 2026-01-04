@@ -1,0 +1,37 @@
+🇧🇷 Português
+
+🎮 Jogo da Velha (Tic-Tac-Toe) em Python
+
+Este é um exercício simples de Jogo da Velha desenvolvido em Python utilizando a biblioteca Tkinter para a interface gráfica.
+
+Funcionalidades:
+
+Jogo para dois jogadores (X e O)
+
+Interface gráfica com botões
+
+Identificação de vitória e empate
+
+Botão para reiniciar a partida
+
+Objetivo do exercício:
+Praticar lógica de programação, uso de funções, condicionais e criação de interfaces gráficas com Tkinter.
+
+🇺🇸 English
+
+🎮 Tic-Tac-Toe Game in Python
+
+This is a simple Tic-Tac-Toe exercise developed in Python using the Tkinter library for the graphical interface.
+
+Features:
+
+Two-player game (X and O)
+
+Graphical interface with buttons
+
+Win and tie detection
+
+Restart game button
+
+Exercise goal:
+Practice programming logic, functions, conditionals, and building graphical interfaces with Tkinter.
