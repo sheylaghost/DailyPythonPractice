@@ -1,0 +1,56 @@
+🔢 Sudoku com Interface Gráfica – Python
+
+Português
+
+Descrição
+
+Este projeto consiste em um jogo de Sudoku desenvolvido em Python, utilizando a biblioteca Tkinter para criar uma interface gráfica.
+O objetivo do exercício é praticar lógica de programação, estruturas de repetição, validações e criação de interfaces gráficas.
+
+O jogo apresenta um tabuleiro inicial com algumas posições já preenchidas e permite que o usuário complete o Sudoku. Ao final, é possível verificar se a solução está correta.
+
+Funcionalidades
+
+Interface gráfica com Tkinter
+
+Tabuleiro 9x9 de Sudoku
+
+Células iniciais bloqueadas
+
+Verificação automática da solução
+
+Mensagens de erro e sucesso
+
+Tecnologias Utilizadas
+
+Python 3
+
+Tkinter (biblioteca padrão do Python)
+
+
+English
+
+Description
+
+🔢 This project is a Sudoku game developed in Python, using the Tkinter library to create a graphical user interface.
+The purpose of this exercise is to practice programming logic, loops, validations, and GUI development.
+
+The game provides a pre-filled Sudoku board and allows the user to complete it. At the end, the solution can be checked automatically.
+
+Features
+
+Graphical interface using Tkinter
+
+9x9 Sudoku board
+
+Pre-filled cells are locked
+
+Automatic solution validation
+
+Error and success messages
+
+Technologies Used
+
+Python 3
+
+Tkinter (Python standard library)
