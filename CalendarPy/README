@@ -1,0 +1,40 @@
+📘 English
+
+This project consists of a simple terminal-based calendar, developed using Python.
+The goal is to practice basic Python concepts and the use of standard libraries to display information in the console.
+
+The program allows:
+
+Displaying the calendar for a specific month
+
+Entering year and month through the terminal
+
+Viewing the calendar in a clear and organized console format
+
+This project is suitable for beginners who want to practice programming logic, user input, and native Python modules.
+
+###🛠 Technologies Used
+-Python
+-Standard library calendar
+
+
+
+# 📅 Terminal Calendar in Python
+
+# 📘 Português
+
+Este projeto consiste em um **calendário simples executado no terminal**, desenvolvido em **Python**.  
+O objetivo é praticar conceitos básicos da linguagem e o uso de bibliotecas padrão para exibição de informações no console.
+
+O programa permite:
+- Exibir o calendário de um mês específico
+- Informar ano e mês pelo terminal
+- Visualizar o calendário de forma clara e organizada no console
+
+Este projeto é indicado para iniciantes que desejam praticar lógica de programação, entrada de dados e uso de módulos nativos do Python.
+
+### 🛠 Tecnologias Utilizadas
+- Python
+- Biblioteca padrão `calendar`
+
+
