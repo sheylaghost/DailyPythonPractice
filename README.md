@@ -1,7 +1,9 @@
 # DailyPythonPractice
 
 🐍 Daily Python Practice / Prática Diária de Python
+
 🇧🇷 Sobre o Projeto
+
 Bem-vindo(a) ao meu projeto de Aprendizado Diário de Python! 🚀
 
 Este repositório é um diário de estudo dedicado a registrar minha evolução e aprimorar minhas habilidades em Python através da prática consistente. A cada dia, um novo desafio, exercício ou conceito é explorado e implementado.
