@@ -1,0 +1,41 @@
+# GitHub User Finder
+
+## 🇧🇷 Português
+
+Este é um projeto simples desenvolvido em Python para praticar o consumo de APIs. O programa solicita um nome de usuário do GitHub e utiliza a API pública da plataforma para obter informações básicas sobre esse perfil.
+
+Após a consulta, são exibidos o nome do usuário, a quantidade de seguidores, o número de repositórios públicos e o link para o perfil.
+
+### Tecnologias utilizadas
+- Python
+- Requests
+- GitHub API
+
+### Objetivo
+
+O objetivo deste exercício é aprender conceitos básicos de:
+- Requisições HTTP
+- Consumo de APIs REST
+- Manipulação de dados JSON
+- Entrada e saída de dados em Python
+
+---
+
+## 🇺🇸 English
+
+This is a simple Python project created to practice working with APIs. The program asks for a GitHub username and uses GitHub's public API to retrieve basic information about that profile.
+
+After the request, it displays the user's name, number of followers, number of public repositories, and profile URL.
+
+### Technologies Used
+- Python
+- Requests
+- GitHub API
+
+### Purpose
+
+The purpose of this exercise is to learn basic concepts such as:
+- HTTP requests
+- REST API consumption
+- JSON data handling
+- User input and output in Python
