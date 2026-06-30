@@ -1,0 +1,67 @@
+English
+
+Container With Most Water
+
+LeetCode
+
+You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+
+Find two lines that together with the x-axis form a container, such that the container contains the most water.
+
+Return the maximum amount of water a container can store.
+
+Notice that you may not slant the container.
+
+ 
+
+Example 1:
+
+
+Input: height = [1,8,6,2,5,4,8,3,7]
+Output: 49
+Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+Example 2:
+
+Input: height = [1,1]
+Output: 1
+ 
+
+Constraints:
+
+n == height.length
+2 <= n <= 105
+0 <= height[i] <= 104
+
+Portuguese
+
+Recipiente com Mais Água
+
+LeetCode
+
+Você recebe um array de inteiros `height` de comprimento `n`. Existem `n` linhas verticais desenhadas de modo que os dois pontos extremos da i-ésima linha sejam `(i, 0)` e `(i, height[i])`.
+
+Encontre duas linhas que, juntamente com o eixo x, formem um recipiente capaz de conter a maior quantidade de água.
+
+Retorne a quantidade máxima de água que um recipiente pode armazenar.
+
+Observe que você não pode inclinar o recipiente.
+
+ 
+
+Exemplo 1:
+
+
+Entrada: height = [1,8,6,2,5,4,8,3,7]
+Saída: 49
+Explicação: As linhas verticais acima são representadas pelo array [1,8,6,2,5,4,8,3,7]. Neste caso, a área máxima de água (seção azul) que o recipiente pode conter é 49.
+Exemplo 2:
+
+Entrada: height = [1,1]
+Saída: 1
+ 
+
+Restrições:
+
+n == height.length
+2 <= n <= 10⁵
+0 <= height[i] <= 10⁴
