@@ -1,0 +1,68 @@
+English
+
+
+LeetCode
+
+Reverse Words in a String
+Medium
+Topics
+premium lock icon
+Companies
+Given an input string s, reverse the order of the words.
+
+A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.
+
+Return a string of the words in reverse order concatenated by a single space.
+
+Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.
+
+ 
+
+Example 1:
+
+Input: s = "the sky is blue"
+Output: "blue is sky the"
+Example 2:
+
+Input: s = "  hello world  "
+Output: "world hello"
+Explanation: Your reversed string should not contain leading or trailing spaces.
+Example 3:
+
+Input: s = "a good   example"
+Output: "example good a"
+Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
+
+Portuguese
+
+LeetCode
+
+Inverter Palavras em uma String
+Médio
+Tópicos
+ícone de cadeado (premium)
+Empresas
+Dada uma string de entrada s, inverta a ordem das palavras.
+
+Uma palavra é definida como uma sequência de caracteres que não são espaços. As palavras em s estarão separadas por pelo menos um espaço.
+
+Retorne uma string contendo as palavras em ordem inversa, concatenadas por um único espaço.
+
+Observe que s pode conter espaços no início ou no fim, ou múltiplos espaços entre duas palavras. A string resultante deve conter apenas um único espaço separando as palavras. Não inclua espaços extras.
+
+ 
+
+Exemplo 1:
+
+Entrada: s = "the sky is blue"
+Saída: "blue is sky the"
+Exemplo 2:
+
+Entrada: s = "  hello world  "
+Saída: "world hello"
+Explicação: A string invertida não deve conter espaços no início ou no fim.
+Exemplo 3:
+
+Entrada: s = "a good   example"
+Saída: "example good a"
+Explicação: Você deve reduzir múltiplos espaços entre duas palavras para um único espaço na string invertida.
